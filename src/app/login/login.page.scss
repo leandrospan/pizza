@@ -1,0 +1,119 @@
+ion-content{
+  --background:red;
+  --color: white;
+}
+
+.cabecalho{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.tituloc{
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.testeira{
+  height: 50px;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.entrada{
+  width: 360px;
+  background: white;
+  border-radius: 25px;
+  color: black;
+  padding: 10px;
+  padding-top: 25px;
+  padding-left: 15px;
+}
+
+.subtitulo{
+  font-weight: 900;
+  font-size: larger;
+  padding-top: 25px;
+}
+
+.fapoio{
+  font-size: small;
+  color: grey;
+}
+
+.goo{
+  margin-right: 5px;
+}
+
+.twi{
+  color: grey;
+}
+
+:host{
+  .bgoogle{
+      width: 220px;
+      text-transform: none;
+      margin-top: 35px;
+      margin-bottom: 20px;
+  }
+  .btwitter{
+      width: 70px;
+      margin-top: 35px;
+      margin-bottom: 20px;
+  }
+}
+
+.hr-sect{
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.35);
+  margin: 8px 0px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.hr-sect::before, .hr-sect::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  line-height: 0px;
+  margin: 0px 8px;
+}
+
+.labels{
+  font-weight: bolder;
+  margin-left: 25px;
+}
+
+.entradas{
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 25px;
+}
+
+.esqueceu{
+  color: goldenrod;
+  font-size: small;
+  text-align: right;
+  margin-left: 100px;
+}
+
+.entrar{
+  --background: red;
+  color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: bold;
+}
+
+.botao{
+  margin-top: 10px;
+}
+
+ion-item{
+  --highlight-background: goldenrod;
+  --border-color:goldenrod;
+  --border-radius: 25px;
+  --border-width:2px;
+}

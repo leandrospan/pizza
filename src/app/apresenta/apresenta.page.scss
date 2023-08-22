@@ -1,0 +1,28 @@
+swiper-container{
+  height: 100%;
+  --bullet-background-active: white;
+  --bullet-background: white;
+}
+
+ion-content{
+  --background: red;
+}
+
+ion-label {
+  color: white;
+}
+
+.titulo{
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.subtitulo{
+  font-size: small;
+}
+
+.botao{
+  --background: white;
+  color: black;
+}
+
